@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2831B81F1F0C87C70034B603 /* NSTimer+DKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2831B81E1F0C87C70034B603 /* NSTimer+DKTimer.m */; };
 		286DA65A1ED1F5AF007EC602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DA6591ED1F5AF007EC602 /* main.m */; };
 		286DA65D1ED1F5AF007EC602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DA65C1ED1F5AF007EC602 /* AppDelegate.m */; };
 		286DA6601ED1F5AF007EC602 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DA65F1ED1F5AF007EC602 /* ViewController.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2831B81D1F0C87C70034B603 /* NSTimer+DKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+DKTimer.h"; sourceTree = "<group>"; };
+		2831B81E1F0C87C70034B603 /* NSTimer+DKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+DKTimer.m"; sourceTree = "<group>"; };
 		286DA6551ED1F5AF007EC602 /* ImageCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286DA6591ED1F5AF007EC602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286DA65B1ED1F5AF007EC602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				286DA6731ED1F5D5007EC602 /* DKLoopCollectionViewCell.m */,
 				286DA6741ED1F5D5007EC602 /* DKLoopViewLayout.h */,
 				286DA6751ED1F5D5007EC602 /* DKLoopViewLayout.m */,
+				2831B81D1F0C87C70034B603 /* NSTimer+DKTimer.h */,
+				2831B81E1F0C87C70034B603 /* NSTimer+DKTimer.m */,
 			);
 			path = LoopView;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				TargetAttributes = {
 					286DA6541ED1F5AF007EC602 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MDA5F5H9ZP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -194,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286DA6771ED1F5D5007EC602 /* DKLoopCollectionViewCell.m in Sources */,
+				2831B81F1F0C87C70034B603 /* NSTimer+DKTimer.m in Sources */,
 				286DA6781ED1F5D5007EC602 /* DKLoopViewLayout.m in Sources */,
 				286DA6601ED1F5AF007EC602 /* ViewController.m in Sources */,
 				286DA6761ED1F5D5007EC602 /* DKLoopCollectionView.m in Sources */,
@@ -320,7 +327,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDA5F5H9ZP;
 				INFOPLIST_FILE = ImageCarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Doublek.ImageCarousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDA5F5H9ZP;
 				INFOPLIST_FILE = ImageCarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.Doublek.ImageCarousel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +368,7 @@
 				286DA66E1ED1F5AF007EC602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

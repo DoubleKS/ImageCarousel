@@ -31,6 +31,7 @@
     loopView.frame = CGRectMake(0,0, 300, 300);
     loopView.center = CGPointMake(self.view.center.x, self.view.center.y);
     
+    [loopView setAnimationDuration:1.5];
     [self.view addSubview:loopView];
 }
 
