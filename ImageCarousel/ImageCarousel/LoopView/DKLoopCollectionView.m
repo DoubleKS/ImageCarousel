@@ -95,7 +95,6 @@ NSString *const LoopViewCellIdentifier = @"LoopViewCellIdentifier";
                 [self scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
             });
         }
-        
     }
     return self;
 }
